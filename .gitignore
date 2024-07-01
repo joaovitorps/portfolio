@@ -1,1 +1,6 @@
+# React
 node_modules/
+build/
+
+# Tailwind
+src/output.css

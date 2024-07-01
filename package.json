@@ -5,7 +5,8 @@
   "scripts": {
     "client": "react-scripts start",
     "start": "nodemon ./app/server.js ",
-    "dev": "concurrently \"npm start\" \"npm run client\" \"tailwindcss -i ./src/styles.css -o ./src/output.css --watch\""
+    "dev": "concurrently \"npm start\" \"npm run client\" \"tailwindcss ./src/styles.css -o ./src/output.css --watch\"",
+    "build": "npx tailwind src/styles.css -o ./src/output.css && react-scripts build"
   },
   "author": "Joao Santos",
   "license": "ISC",
