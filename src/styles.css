@@ -1,0 +1,11 @@
+@tailwind base;
+@layer base {
+  html {
+    @apply bg-slate-950;
+    @apply text-slate-50;
+    @apply text-lg;
+    @apply font-mono;
+  }
+}
+@tailwind components;
+@tailwind utilities;
